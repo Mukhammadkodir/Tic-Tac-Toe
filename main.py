@@ -4,5 +4,10 @@ def factorial(a):
 		f *= i
 	return f
 
+def power(a):
+	return a ** a
+
+print(power(5))
 print(factorial(5))
+
 print("Hello")
